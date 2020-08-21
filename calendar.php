@@ -196,18 +196,4 @@ class Calendar {
     }
  
     /**
-    * calculate number of days in a particular month
-    */
-    private function _daysInMonth($month=null,$year=null){
-         
-        if(null==($year))
-            $year =  date("Y",time()); 
- 
-        if(null==($month))
-            $month = date("m",time());
-             
-        return date('t',strtotime($year.'-'.$month.'-01'));
-    }
-     
-}
-Let us take a l
+   
